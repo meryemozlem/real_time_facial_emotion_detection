@@ -10,7 +10,11 @@ https://stackoverflow.com/questions/52676020/imread-returns-none-violating-asser
 
 #example projects
 https://github.com/rondinellimorais/facial-expression-recognition
+
 https://github.com/DetectingHumanEmotion/detecting-human-emotion-webapp
+
+
 https://github.com/kaushikjadhav01/Deep-Surveillance-Monitor-Facial-Emotion-Age-Gender-Recognition-System
+
 all : 
 https://github.com/search?q=video%20emotion%20detection&type=repositories
