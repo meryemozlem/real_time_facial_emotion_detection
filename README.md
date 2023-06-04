@@ -18,3 +18,7 @@ https://github.com/kaushikjadhav01/Deep-Surveillance-Monitor-Facial-Emotion-Age-
 
 all : 
 https://github.com/search?q=video%20emotion%20detection&type=repositories
+
+
+
+https://github.com/akmadan/Emotion_Detection_CNN
