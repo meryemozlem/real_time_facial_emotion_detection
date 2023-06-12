@@ -1,7 +1,8 @@
-# project_2
+# project_2  
+Real time face emotion detection <br>
 Referances:
 https://www.youtube.com/watch?v=EA7BfcVttos
-/n
+<br>
 
 Solutions:
 https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml
