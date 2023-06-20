@@ -1,5 +1,9 @@
 # project_2  
 Real time face emotion detection <br>
+TRUTH FROM FACIAL EXPRESSIONS WITH DEEP LEARNING PROGRAM THAT DETECTS TIMELY EMOTION ANALYSIS AND DESIGN
+<br>
+<br>
+
 Referances:
 https://www.youtube.com/watch?v=EA7BfcVttos
 <br>
