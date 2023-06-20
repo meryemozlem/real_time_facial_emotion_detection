@@ -1,6 +1,6 @@
-# project_2  
-Real time face emotion detection <br>
-TRUTH FROM FACIAL EXPRESSIONS WITH DEEP LEARNING PROGRAM THAT DETECTS TIMELY EMOTION ANALYSIS AND DESIGN
+# Real Time Facial Emotion Detection 
+# Truth From Facial Expressions With Deep Learning Program That Detects Timely Emotion Analysis And Design
+
 <br>
 <br>
 <br>
