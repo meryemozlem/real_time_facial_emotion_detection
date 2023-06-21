@@ -1,7 +1,7 @@
 # Real Time Facial Emotion Detection 
 # Truth From Facial Expressions With Deep Learning Program That Detects Timely Emotion Analysis And Design
 <br>
-**Proje 2**      **Meryem Özlem AYDOĞAN**
+#Proje 2      **Meryem Özlem AYDOĞAN**
 <br>
 ~Rapor içeriğinden:
 <br>
