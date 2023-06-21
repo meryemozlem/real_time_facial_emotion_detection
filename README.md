@@ -1,10 +1,12 @@
 # Real Time Facial Emotion Detection 
 # Truth From Facial Expressions With Deep Learning Program That Detects Timely Emotion Analysis And Design
 <br>
-#Proje 2      **Meryem Özlem AYDOĞAN**
+#Proje 2     
+
+**Meryem Özlem AYDOĞAN**
 <br>
 ~Rapor içeriğinden:
-<br>
+
 **1.2 Dünyadaki ve Ülkemizdeki Benzer Örnekler**
 <br>
 Gerçek zamanlı duygu tespiti, son yıllarda yapay zeka ve görüntü işleme alanında büyük ilgi 
@@ -43,7 +45,7 @@ artması sağlanmıştır. Diğer projelere kıyasla ek olarak, anlık cevap de�
 yazılım geliştirilmiş ve ifadelerin okunmasında kolaylık sağlanmıştır. Bu sayede model hızlı bir 
 şekilde denenerek, yeniden yapılandırılmış ve geliştirilmesine olanak sunulmuştur.
 <br>
-<br>
+
 **2. PROJE İÇERİĞİ VE KAPSAMI** 
 <br>
 Son zamanlarda yüz tanıma ve algılama sistemleri birçok ticari, askeri, güvenlik, sosyal ve 
@@ -142,7 +144,7 @@ günümüzün hem de geleceğin çalışma alanları olduğu ve gün geçtikçe 
 teknoloji olacağı ön görülmektedir.
 
 <br>
-<br>
+
 **4.3 Potansiyel Hedef Kullanıcılar**
 İnsan yüzleriyle gerçekleştirilen duygu analiz projeleri; ticaret, askeri saha, üretim, sağlık ve 
 hizmet sektörleri için ilgi çekici olmaktadır. Artık firmalar kendileri ile ilgili neler 
