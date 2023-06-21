@@ -3,7 +3,9 @@
 **Proje 2** **Meryem Özlem AYDOĞAN**
 <br>
 ~Rapor içeriğinden:
-1.2 Dünyadaki ve Ülkemizdeki Benzer Örnekler
+<br>
+**1.2 Dünyadaki ve Ülkemizdeki Benzer Örnekler**
+<br>
 Gerçek zamanlı duygu tespiti, son yıllarda yapay zeka ve görüntü işleme alanında büyük ilgi 
 görmüştür. Bu sebeple dünyada ve ülkemizde birçok benzer örneği vardır. Araştırma sonucu 
 ulaşılabilen benzer nitelikteki projeleri incelediğinde, gerçek zamanlı evrişimli sinir ağları 
@@ -41,7 +43,8 @@ yazılım geliştirilmiş ve ifadelerin okunmasında kolaylık sağlanmıştır.
 şekilde denenerek, yeniden yapılandırılmış ve geliştirilmesine olanak sunulmuştur.
 <br>
 <br>
-2. PROJE İÇERİĞİ VE KAPSAMI
+**2. PROJE İÇERİĞİ VE KAPSAMI** 
+<br>
 Son zamanlarda yüz tanıma ve algılama sistemleri birçok ticari, askeri, güvenlik, sosyal ve 
 psikolojik alanlardaki uygulamalarda sıkça kullanılmaktadır. Yapılan analizler; insan 
 yüzlerinin hareketlerinin tanımlanmasını ve yorumlanmasını içermektedir. İnsanlar tarafından 
@@ -74,7 +77,7 @@ işlemi eş zamanlı olarak gerçekleştiren proje ortaya çıkarılmıştır.
 <br>
 <br>
 
-3.2 Altyapı, Donanım ve Yazılım Özellikleri
+**3.2 Altyapı, Donanım ve Yazılım Özellikleri**
 Derin öğrenmenin yüksek başarımı için kaliteli bir veri setine ihtiyaç duyulmaktadır. Bu 
 sebeple, eğitim ve test performansının yüksek olarak ölçüldüğü veri setlerine bakılmalı ve 
 uygun olan set seçilmelidir. Projede, face expression recognition veri seti kullanılarak derin 
@@ -98,7 +101,7 @@ mutluluk, nötr, üzüntü, şaşırma) ele alınmıştır.
 <br>
 <br>
 
-4.2 Sistemin-Yazılımın Kullanım Alanları 
+**4.2 Sistemin-Yazılımın Kullanım Alanları**
 Yüz ifadeleri, insanların günlük iletişiminde içsel duygularını ifade etmenin en açık 
 göstergelerinden biridir. Bir kişinin fiziksel veya ruhsal durumu, yüz ifadeleri analiz edilerek 
 tespit edilebilir. Bu nedenle yüz ifadesi tanıma; otopilot, insan-bilgisayar etkileşimi, tıbbi tedavi 
@@ -139,7 +142,7 @@ teknoloji olacağı ön görülmektedir.
 
 <br>
 <br>
-4.3 Potansiyel Hedef Kullanıcılar
+**4.3 Potansiyel Hedef Kullanıcılar**
 İnsan yüzleriyle gerçekleştirilen duygu analiz projeleri; ticaret, askeri saha, üretim, sağlık ve 
 hizmet sektörleri için ilgi çekici olmaktadır. Artık firmalar kendileri ile ilgili neler 
 düşünüldüğünü bilmek ve bu düşüncelere göre hareket etmek istemektedirler. Bu sayede derin 
