@@ -7,180 +7,171 @@
 
 **Meryem Özlem AYDOĞAN**
 <br>
-~Rapor içeriğinden:
+~From the report content:
 
-**1.2 Dünyadaki ve Ülkemizdeki Benzer Örnekler**
+**1.2 Similar Examples in the World and in Turkey**
 <br>
-Gerçek zamanlı duygu tespiti, son yıllarda yapay zeka ve görüntü işleme alanında büyük ilgi 
-görmüştür. Bu sebeple dünyada ve ülkemizde birçok benzer örneği vardır. Araştırma sonucu 
-ulaşılabilen benzer nitelikteki projeleri incelediğinde, gerçek zamanlı evrişimli sinir ağları 
-mimarisi kullanılarak, yüz tanıma, cinsiyet sınıflandırması ve duygu sınıflandırması tek bir 
-adımda eş zamanlı olarak gerçekleştirilen modeller farkındalık oluşturduğu saptanmıştır. Yüz 
-ifadeleri üzerinden yaş tahmini yapan uygulamalar geliştirilmiş ve bu uygulamalar için büyük 
-veri setleri kullanılmıştır.
-MIT’nin geliştirdiği “Affdex”, Microsoft’un "Azure Cognitive Services" ve "Face API’sı, 
-Amazon “Rekognition”, “SkyBiometry”, Emotion AI" , “Face++”, “Anthropic” gibi 
-platformların gerçek zamanlı duygu tespiti projeleri üzerinde çalıştığı bilinmektedir. Bu 
-projeler, geniş veri kümelerini kullanarak duygu analizi modelleri oluşturarak duygusal 
-tepkileri sınıflandırmak için derin öğrenme tekniklerini kullanmaktadır.
-Literatürde duygu analizi alanında yapılan çalışmalarda en etkili sonuçlarının alındığı makine 
-öğrenimi yöntemine Pang ve Lee öncülük etmiştir. En iyi başarı sonucuna %78.9 ulaşılmıştır. 
-Pang ve Lee’nin yaptıkları projede, farklı olarak metin sınıflandırıcılığı işlenmiştir. Dandıl ve 
-Özdemir, 2019 yılında yaptıkları çalışmada klasik evrişimsel sinir ağı AlexNet ile gerçek 
-zamanlı video karelerinden yüz ifadeleri temelinde bir duygu tanıma sistemi önermiştir. 
-Chen ve Ark, 2015 yılında yaptıkları çalışmada resim görüntülerinden duygu sınıflandırması
-yapmak için kullandıkları otomatik öğrenen evrişimsel sinir ağı (ESA-CNN) ile elle 
-hazırlanmış özelliklere dayanan geleneksel yöntemlerden daha iyi performans almışlardır.
-Yapılan çalışmalar ESA’nın duygu tanımada özellik çıkarmak için kullanılabileceğini 
-göstermektedir. Evrişim yapısı üzerindeki giriş katmanı, eğitilecek modelin verileri girilerek 
-istenilen yapıya dönüştürülen katmandır. 
-Duygu analiz yöntemleri, makine öğrenme tabanlı yöntemler ve sözlük tabanlı yöntemler olarak 
-sınıflandırılmaktadır. Bu yöntemler içerisinde, literatürde yapılan çalışmalar göz önüne 
-alındığında makine öğrenimi tabanlı yöntemlerin maksimum doğruluk verdiği görülmüştür. 
-Yapılmış olunan bu projeyi diğer uygulamalardan ayıran bazı özellikler vardır. Detaylı 
-araştırmalar sonucu elde edilmiş olan başarı oranlarının belirli bir sınır üzerine çıkamıyor oluşu
-ve çoğu projenin bu doğruluk sınırına yaklaşamamaları dikkat çekici bulunmuştur. Bu soruna 
-çözüm sunabilmek amacıyla model oluşturma kısmına ek katmanlar eklenmiş ve model eğitim 
-için yaygın olarak kullanılan kombinasyonlar son araştırmalarda test edilerek belirli optimal 
-eşikler belirlenmeye çalışılmıştır. Bunlar sonucunda ise değerlendirme ve başarı oranının
-artması sağlanmıştır. Diğer projelere kıyasla ek olarak, anlık cevap değeri döndürebilen bir 
-yazılım geliştirilmiş ve ifadelerin okunmasında kolaylık sağlanmıştır. Bu sayede model hızlı bir 
-şekilde denenerek, yeniden yapılandırılmış ve geliştirilmesine olanak sunulmuştur.
+1.2 Similar Examples in the World and in Turkey
+Real-time emotion detection has attracted a lot of attention in the field of artificial intelligence and image processing in recent years. For this reason, there are many similar examples in the world and in our country. When similar projects that can be accessed as a result of the research are examined, it is found that models that perform face recognition, gender classification and emotion classification simultaneously in a single step using real-time convolutional neural network architecture have created awareness. Applications that predict age based on facial expressions have been developed and large data sets have been used for these applications. It is known that platforms such as "Affdex" developed by MIT, Microsoft's "Azure Cognitive Services" and "Face API, Amazon "Rekognition", "SkyBiometry", Emotion AI", "Face++", "Anthropic" are working on real-time emotion detection projects. These projects use deep learning techniques to classify emotional responses by building sentiment analysis models using large datasets. Pang and Lee pioneered the machine learning method, which has the most effective results in the studies conducted in the field of emotion analysis in the literature. The best success rate was 78.9%. 
+In Pang and Lee's project, text classification was treated differently. Dandil and 
+Özdemir, 2019, in their study, the classical convolutional neural network AlexNet and real 
+proposed an emotion recognition system based on facial expressions from timed video frames. 
+Chen and Ark, in their 2015 study, proposed an emotion classification system based on
+with the automatic learning convolutional neural network (ESA-CNN) that they use to manually 
+outperformed traditional methods based on prepared features.
+Studies have shown that ESA can be used for feature extraction in emotion recognition. 
+shows. The input layer on the convolution structure is the input of the data of the model to be trained. 
+is the layer that is transformed into the desired structure. 
+Sentiment analysis methods are divided into machine learning-based methods and dictionary-based methods. 
+are classified. Among these methods, considering the studies in the literature 
+machine learning based methods were found to give maximum accuracy. 
+There are some features that distinguish this project from other applications. Detailed 
+the fact that the success rates obtained as a result of research cannot exceed a certain limit
+and it is noteworthy that most projects do not come close to this accuracy limit. This problem 
+In order to provide a solution, additional layers have been added to the model creation part and model training 
+commonly used combinations have been tested in recent research to determine certain optimal 
+thresholds were tried to be determined. As a result, the evaluation and success rate
+has been increased. In addition, compared to other projects, we have developed a system that can return an instantaneous response value. 
+software has been developed and the expressions are easier to read. In this way, the model is built in a fast 
+and restructured and allowed to be improved.
+
+
 <br>
 
-**2. PROJE İÇERİĞİ VE KAPSAMI** 
+**2. PROJECT CONTENT AND SCOPE** 
 <br>
-Son zamanlarda yüz tanıma ve algılama sistemleri birçok ticari, askeri, güvenlik, sosyal ve 
-psikolojik alanlardaki uygulamalarda sıkça kullanılmaktadır. Yapılan analizler; insan 
-yüzlerinin hareketlerinin tanımlanmasını ve yorumlanmasını içermektedir. İnsanlar tarafından 
-bile zor analiz edilebilen duygusal ifadeler bilgisayar ortamında test edilip belirlenmesinin 
-kolaylık sağlayacağının düşünülmesi derin öğrenme alanına popülerlik kazandırmıştır. Bu 
-bağlamda bilgisayarlı görü alanına da değinilmelidir. Bilgisayarlı görü, günümüzde yüz ve 
-duygu sınıflandırma alanlarında yaygın olarak kullanılmaktadır. Yüz tanıma, görüntü veya 
-videolardan elde edilen verilerdeki kişilerin otomatik olarak tanımlanması veya doğrulanması
-işlemidir. Yüz tanıma işlemlerinin dört temel aşaması vardır. Bu işlemler sırasıyla yüz
-algılama, normalleştirme, öznitelik çıkarma ve sınıflandırmadır. Normalleştirme ve 
-sınıflandırma algoritmaları yüz tanımada ne kadar başarılı olursa olsun, eğer özellik çıkarma 
-aşaması başarılı olmazsa o sistem istenilen başarıyı yakalayamamaktadır.
-Gerçek zamanlı duygu tespit projesi, görüntü işleme ve yapay zeka algoritmalarını içeren bir 
-dizi adımdan oluşmaktadır. İlk adım olarak, anlık görüntüdeki insan yüzlerini tespit etmek 
-için yüz tanıma algoritmaları kullanılmıştır. Yüz veya yüzler tespit edildikten sonra, duygu 
-durumunu belirlemek için evrişimsel sinir ağları kullanılarak geliştirilen duygu analiz modeli 
-kullanılmıştır. Bu model, derin öğrenme teknikleriyle eğitilmiş ve farklı duygu kategorilerine 
-ayrılan veri kümesiyle beslenmiştir. Son olarak, belirlenen duygu durumları, anlık analizler 
-yapmak ve sonuçları kullanıcıya sunmak için kullanılmıştır.
-Proje kapsamı boyunca yapılan eklemeler sonucu yenilenen modelin başarı oranı ve 
-kullanılabilirliği doğru orantılı şekilde artış gösterdiği çizilen grafikler yardımıyla 
-gözlenmiştir. Öznitelik çıkarımı için derin öğrenme tekniklerinden biri olan ve yapay sinir 
-ağları içeren bir yaklaşım olan Evrişimli Sinir Ağları (ESA-CNN) kullanılarak yeni bir model 
-geliştirilmiştir. 
-Model eğitimi için yaygın olarak kullanılan kombinasyonlar son çalışmalarda test edilmiş ve 
-sınıflandırma algoritmalarının gösterdikleri başarım sonuçlarına etkisi incelenmiştir. 
-Değerlendirmeler yapılarak, güçlü performans gösteren sınıflandırma algoritması ve gerçek 
-zamanlı evrişimli sinir ağları mimarisi kullanılarak, yüz görsellerinden duygu sınıflandırması 
-işlemi eş zamanlı olarak gerçekleştiren proje ortaya çıkarılmıştır.
+Recently, face recognition and detection systems have been used in many commercial, military, security, social and 
+is frequently used in applications in psychological fields. Analyses performed; human 
+It involves the identification and interpretation of the movements of their faces. By humans 
+emotional expressions, which are difficult to analyze even in a computerized environment, can be tested and determined. 
+The thought that it will provide convenience has brought popularity to the field of deep learning. This 
+computer vision should also be mentioned in this context. Computer vision is nowadays used for face and 
+is widely used in the fields of emotion classification. Face recognition, image or 
+automatic identification or verification of persons in data derived from videos
+process. There are four basic stages of face recognition. These processes are face
+detection, normalization, feature extraction and classification. Normalization and 
+no matter how successful classification algorithms are in face recognition, if feature extraction 
+If this stage is not successful, the system does not achieve the desired success.
+The real-time emotion detection project is a combination of image processing and artificial intelligence algorithms. 
+consists of a series of steps. The first step is to detect human faces in the snapshot. 
+face recognition algorithms were used. Once the face or faces are detected, the emotion 
+sentiment analysis model developed using convolutional neural networks to determine the state of 
+is used. This model was trained with deep learning techniques and was applied to different emotion categories. 
+with the allocated dataset. Finally, the identified emotional states were analyzed 
+and present the results to the user.
+As a result of the additions made throughout the project scope, the success rate of the revamped model and 
+with the help of the graphs drawn that the availability increases in direct proportion. 
+observed. One of the deep learning techniques for feature extraction, artificial neural 
+a new model using Convolutional Neural Networks (ESA-CNN), an approach involving networks 
+has been developed. 
+Commonly used combinations for model training have been tested in recent studies and 
+The effect of the classification algorithms on the performance of the classification algorithms is analyzed. 
+By making evaluations, the classification algorithm with strong performance and the real 
+emotion classification from facial images using a time convolutional neural network architecture 
+The project that realizes the process simultaneously has been revealed.
 <br>
 <br>
 
-**3.2 Altyapı, Donanım ve Yazılım Özellikleri**
-Derin öğrenmenin yüksek başarımı için kaliteli bir veri setine ihtiyaç duyulmaktadır. Bu 
-sebeple, eğitim ve test performansının yüksek olarak ölçüldüğü veri setlerine bakılmalı ve 
-uygun olan set seçilmelidir. Projede, face expression recognition veri seti kullanılarak derin 
-öğrenme ile duygu tanımaya yönelik bir proje geliştirilmiştir. Face expression recognition veri 
-seti duygu tespit projesindeki ihtiyacı karşılamaktadır. Face expression recognition veri 
-setinde toplam 35887 görüntü bulunmaktadır. Görüntülerin 28821 tanesi eğitim, 7066 tanesi 
-ise Public ve Private testler için ayrılmıştır. Public testler model bitirildikten sonraki başarım 
-oranını test etmek için kullanılırken, Private testler ise veri setindeki görsellerden bir kısmını 
-"PrivateTest" olarak ayırır ve daha sonra test etmek için kullanılır. Proje için kullanılan 
-görsellerin teknik detayları bu veri seti sayesinde incelenebilmektedir. Böylece kolonlarda 
-kullanılan veri setindeki örneklerin kaç gruba ayrıldığı görülebilir ve set içindeki alanlara veri 
-görselleştirilmesi uygulanabilmektedir. Kullanılan veri seti 35887 satır ve 3 kolondan 
-oluşmaktadır. Bu veri setinde yedi duyguyu tespit etmeye yönelik resimler bulunmaktadır. Bu 
-duygular kızgın (3993 tane), iğrenme (436 tane), korku (4103 tane), mutlu (7164 tane), üzgün 
-(4938 tane), şaşırma (3205 tane), nötr (4982 tane). Görsellerin yapısı fonksiyonlar yardımı ile 
-48x48 boyutunda ve gri tonlarında olacak şekilde düzenlenmiştir. Model içeriğindeki 
-görsellerle ayrı ayrı eğitim gerçekleştirilerek geliştirilen yeni model test edilmiştir. Model ile 
-gerçekleştirilen çalışmada, her bir veri setinde yedi farklı duygu sınıfı (korku, öfke, iğrenme, 
-mutluluk, nötr, üzüntü, şaşırma) ele alınmıştır.
+**3.2 Infrastructure, Hardware and Software Specifications**
+A high quality dataset is needed for high performance of deep learning. This 
+Therefore, we should look for datasets where training and testing performance is measured to be high and 
+the appropriate set should be selected. In the project, the face expression recognition dataset is used for deep 
+A project has been developed for emotion recognition with learning. Face expression recognition data 
+set fulfills the need in the emotion detection project. Face expression recognition data 
+There are a total of 35887 images in the set. 28821 of the images are training and 7066 of the images 
+is reserved for Public and Private tests. Public tests are the performance after the model is finished. 
+ratio, while Private tests are used to test a portion of the images in the dataset. 
+"PrivateTest" and is then used for testing. Used for the project 
+The technical details of the images can be analyzed through this data set. Thus, in columns 
+can be seen how many groups the samples in the data set used are divided into, and the fields within the set can be called data 
+visualization can be applied. The data set used consists of 35887 rows and 3 columns 
+consists of. In this data set, there are pictures to identify seven emotions. This 
+emotions angry (3993), disgust (436), fear (4103), happy (7164), sad 
+(4938), surprise (3205), neutral (4982). The structure of the images is analyzed with the help of functions 
+It is 48x48 in size and arranged in shades of gray. The model contains 
+The new model was tested by training with the images separately. With the model 
+In the study, seven different emotion classes (fear, anger, disgust, 
+happiness, neutral, sadness, surprise) were discussed.
 
 <br>
 <br>
 
-**4.2 Sistemin-Yazılımın Kullanım Alanları**
-Yüz ifadeleri, insanların günlük iletişiminde içsel duygularını ifade etmenin en açık 
-göstergelerinden biridir. Bir kişinin fiziksel veya ruhsal durumu, yüz ifadeleri analiz edilerek 
-tespit edilebilir. Bu nedenle yüz ifadesi tanıma; otopilot, insan-bilgisayar etkileşimi, tıbbi tedavi 
-ve yüz ifadeleriyle ilgili diğer alanlarda büyük öneme sahiptir. Bu alanın giderek daha önemli 
-bir araştırma konusu haline gelmekte olduğu yapılan araştırmalar sonucunda belirlenmiştir. Yüz
-ifadesinden duygu tanıma, otizm ve şizofreninin belirlenmesi gibi psikolojik bilimsel, 
-değerlendirmeler, uykulu bir sürücünün saptanması, Alzheimer hastalığı veya şizofreninin 
-erken aşamalarında anormalliklerin belirlenmesi, tıbbi sorgular, medikal araştırmalar ve suç 
-tahmin sistemleri gibi çeşitli uygulamalar için kullanılmaktadır. Ayrıca yüz ifadeleri eğitim 
-alanı uygulamalarında da kullanılabilmektedir. Otomatik duygu tanımanın kullanımı; dijital 
-reklam, pazarlama analizi, çevrimiçi oyunlar, müşterilerin geri bildirim değerlendirmesi, ticari, 
-askeri, güvenlik, sosyal uygulamalarda, sağlık hizmetleri gibi çeşitli akıllı sistemlerde (e-sağlık, 
-öğrenme, turizm için öneri, akıllı şehir, akıllı konuşma vb.) büyük bir potansiyele sahiptir. Ek 
-olarak, bir kullanıcının ürün veya hizmetlerle etkileşim sırasında duygusal tepkilerini analiz 
-etmek için kullanılabilir. Reklam kampanyalarının etkinliğini değerlendirmek ve hedef kitleye 
-uygun pazarlama stratejileri geliştirmek için kullanılabilir. Eğitim alanında, öğrencilerin 
-duygusal durumlarını izlemek ve eğitim sürecini optimize etmek için kullanılabilir.
-Makine öğrenmesinde, duygu tespitine yönelik çeşitli yüz ifadesi tanıma algoritmaları 
-önerilmiştir. Ancak görüntülerdeki karmaşıklık, çeşitlilik, üst üste gelme, aydınlatma 
-problemleri ve yüz ifadesi tanımadaki diğer zorluklar nedeniyle, pratik uygulamalardaki tanıma 
-doğruluğu halen tatmin edici sonuçlar vermemektedir. Son yıllarda sinir ağlarında olan 
-gelişmeler derin öğrenme etkili modelleri ortaya çıkarmıştır ve çok sayıda derin öğrenme 
-mimarisinin gelişimine yol açmıştır. Bu alanlardan biri olan yüz ifadeleri tanıma, bilgisayarlı 
-görme ve yapay zekâ alanında önemli bir role sahiptir. Derin öğrenme, duygu tanıma 
-problemleri için sınıflandırma verimliliği konusunda gerçek bir umut vadetmiştir. Özellikle 
-derin evrişimli ağlar görüntülerin, videoların ve sesin işlenmesinde çığır açmıştır.
-Görüntülerdeki nesnelerin ve bölgelerin algılanması, bölümlendirilmesi ve tanınması için 
-büyük bir başarı uygulanması sağlanmaktadır.
-Bunlara örnek olarak trafik işareti tanıma, biyolojik görüntülerin bölümlere ayrılması ve doğal 
-görüntülerde yüzlerin, metinlerin, yayaların ve insan vücutlarının tespiti gibi etiketlenmiş 
-verilerin fazla olduğu uygulamalar, otonom robotlar veya otonom araçlar verilebilir. CNN'in 
-yakın zamandaki en büyük başarısı yüz tanıma uygulamasıdır. Kişinin jest ve mimiklerinden
-yüzünün incelenmesiyle ne tür duyguya sahip olduğu kolayca anlaşılabilmektedir. Merak ile 
-veri kullanımı aktifleştirilmektedir. Kullanıcıların yararına olan ve her türlü sektörde kullanım 
-alanı bulabilen önemli bir çalışmadır. Tüm bu faydaları düşünüldüğünde duygu analizi hem 
-günümüzün hem de geleceğin çalışma alanları olduğu ve gün geçtikçe de vazgeçilmez bir 
-teknoloji olacağı ön görülmektedir.
+**4.2 Areas of Use of the System-Software**
+Facial expressions are the clearest way for people to express their inner feelings in their daily communication. 
+is one of the indicators. A person's physical or mental state can be determined by analyzing their facial expressions. 
+can be detected. Facial expression recognition can therefore be used in autopilot, human-computer interaction, medical treatment 
+and other areas related to facial expressions. This field is becoming increasingly important 
+is becoming a research topic as a result of the researches conducted. Face
+psychological science, such as emotion recognition from expression, identification of autism and schizophrenia, 
+assessments, detection of a drowsy driver, Alzheimer's disease or schizophrenia 
+identification of abnormalities in the early stages, medical inquiries, medical investigations and criminal 
+for various applications such as prediction systems. Also facial expressions training 
+can also be used in field applications. The use of automatic emotion recognition; digital 
+advertising, marketing analysis, online games, customer feedback evaluation, commercial, 
+military, security, social applications, various intelligent systems such as healthcare (e-health, 
+learning, suggestion for tourism, smart city, smart conversation etc.) has great potential. Additional 
+as analyzing a user's emotional reactions during interaction with products or services 
+to evaluate the effectiveness of advertising campaigns and target audiences. Evaluate the effectiveness of advertising campaigns and target audiences 
+can be used to develop appropriate marketing strategies. In the field of education, students 
+can be used to monitor their emotional state and optimize the training process.
+In machine learning, various facial expression recognition algorithms for emotion detection 
+has been proposed. However, the complexity, diversity, overlap, illumination 
+problems and other difficulties in facial expression recognition, recognition in practical applications 
+accuracy is still not satisfactory. In recent years, neural networks 
+developments have led to effective models of deep learning and a large number of deep learning 
+led to the development of architecture.
+One of these areas is facial expression recognition, computerized 
+has an important role in vision and artificial intelligence. Deep learning, emotion recognition 
+has shown real promise in terms of classification efficiency for problems. In particular 
+Deep convolutional networks have revolutionized the processing of images, video and audio.
+For the detection, segmentation and recognition of objects and regions in images 
+is being implemented with great success.
+Examples include traffic sign recognition, segmentation of biological images and natural 
+tagged images, such as detection of faces, text, pedestrians and human bodies 
+applications where data is abundant, autonomous robots or autonomous vehicles. CNN's 
+The biggest recent success is facial recognition. From a person's gestures and facial expressions
+By examining his face, it is easy to understand what kind of emotion he has. With curiosity 
+data usage is activated. For the benefit of users and for use in all sectors 
+is an important study that can find a field. Considering all these benefits, sentiment analysis is both 
+is both today's and the future's workspaces and is becoming increasingly indispensable. 
+technology is predicted.
 
 <br>
 
-**4.3 Potansiyel Hedef Kullanıcılar**
-İnsan yüzleriyle gerçekleştirilen duygu analiz projeleri; ticaret, askeri saha, üretim, sağlık ve 
-hizmet sektörleri için ilgi çekici olmaktadır. Artık firmalar kendileri ile ilgili neler 
-düşünüldüğünü bilmek ve bu düşüncelere göre hareket etmek istemektedirler. Bu sayede derin 
-öğrenme destekli sistemler ekonomi, pazarlama, politika, vb. araştırma alanlarında 
-kullanılabilecek zengin veri kaynağı durumuna getirilmiştir. Bu durum, Duygu Analizi 
-konusunun gün geçtikçe önem kazanmasına yardımcı olmuştur. Yüz ifadelerinden duygu 
-tanımanın ileri aşamasında, metin madenciliği kavramı öne çıkmaktadır.
-Derin öğrenme destekli duygu tanıma projesi oldukça yoğun bir hedef kullanıcı kitlesine 
-sahiptir. Bu kitlede bahsedilen birçok sektör vardır. Derin öğrenme destekli duygu tanıma 
-projesinin kamera sistemlerine entegre edilmesi sayesinde zengin veri kaynağı elde 
-edilmektedir. Bu veri kaynağının işlenmesi ile çok çeşitli bilgiler edinilmektedir. Bir okul 
-sistemine bağlanmasıyla eğitim hakkındaki bilgiler edilirken, askeri bir sisteme entegre 
-edilmesi suç analizlerinin duygu tespit sayesinde gerçekleştirilmesini kolaylaştırmaktadır. Bir 
-ticaret şirketi, pazarlama yaptığı mağazaya sistemi entegre ederse, müşterilerin farklı ürünlere 
-karşı oluşturduğu duygu tutumlarını analiz ederek ulaşmış olacaktır. Markaların stratejik, hızlı 
-ve daha bilinçli pazarlama ve ürün geliştirme kararları vermelerine yardımcı olur. Böylece 
-müşterilerine ve iç muhasebesine karşı faydacı bir tutum sergilemesi sağlanmış olacaktır. Proje 
-bir hastane kamera sistemine bağlanırsa, belirli hastalıkların önceden tespitini saptayacak ve 
-yeni gelişim gösteren bulguların belirlenmesini kolaylaştıracaktır. Okul sistemine olan faydacı 
-etkisi ise şu şekilde açıklanabilmektedir, öğrencilerin derslere göre gösterdiği duygu durumları 
-kayıt altına alınmaktadır. Bu sayede yaş gruplarının derslere karşı tutumları ve konuların zorluk 
-seviyeleri gibi bilgiler öğrenilebilmektedir. Ek olarak, yapılmış olan bir yemeğin uluslararası 
-insanlar topluluğunun damak zevkine hitap edip, etmemesi konusunda da kullanılabilir. 
-Toplumun ruh durumunun tespit edilmesi, film değerlendirmeleri, pazar-fiyat denge analizleri, 
-Bilimsel ve medikal araştırmalar, Suç analizi, güvenlik, istihbarat, vb. gibi hem genel hem de 
-özel anlamda birçok alanda kullanılabilmektedir Projenin potansiyel ve hedef kullanıcıları 
-arasında, eğitimciler, psikologlar, sağlık profesyonelleri ve iletişim uzmanları yer almaktadır. 
-Makine Etkileşimi ve Duygu Analizi, Pazarlama ve reklamcılık stratejilerinde, Müşteri 
-Deneyimi analizinde, Güvenlik ve İzleme, Sağlık Sektörü ve sosyal bilimlerde çeşitli alt 
-alanların uygulamalarında kullanılıp geliştirilebilir. Tüm olası değerlendirmeler saymakla 
-maalesef bitmemektedir. Her alanda kullanılma potansiyeli olduğu ön görülen bu sistemlerin 
-geleceğe yönelik sadece bir tahmin olarak kalmadığı çünkü günümüzde bu sistemden 
-yararlanıldığı da bilinmektedir.
+**4.3 Potential Target Users**
+Emotion analysis projects with human faces have been conducted in the fields of commerce, military, manufacturing, health and 
+is interesting for service sectors. What are the companies about themselves now? 
+They want to know what is being thought and act accordingly. In this way, deep 
+learning-enabled systems in research areas such as economics, marketing, politics, etc. 
+rich source of data that can be utilized. This situation has led to the development of 
+has helped the subject to gain importance day by day. Emotion from facial expressions 
+At the advanced stage of recognition, the concept of text mining comes to the fore.
+The deep learning supported emotion recognition project has a very dense target user base. 
+has. There are many sectors mentioned in this audience. Deep learning supported emotion recognition 
+project is integrated into camera systems, providing a rich source of data. 
+is being collected. Processing this data source provides a wide range of information. A school 
+system, while information about education is integrated into a military system. 
+makes it easier to perform crime analysis through emotion detection. A 
+If the trading company integrates the system in the store where it does its marketing, customers will have access to different products. 
+by analyzing the emotional attitudes it creates towards brands. Brands need to be strategic, fast 
+and help them make more informed marketing and product development decisions. This way 
+will be ensured to demonstrate a pragmatic attitude towards its customers and internal accounting. Project 
+if connected to a hospital camera system, it will detect the early detection of certain diseases and 
+facilitate the identification of newly developing findings. Utilitarianism towards the school system 
+The effect can be explained as follows: the emotional states of the students according to the courses 
+are recorded. In this way, the attitudes of age groups towards the lessons and the difficulty of the subjects are recorded. 
+information such as levels can be learned. In addition, it is possible to learn the international 
+whether or not it appeals to the palate of a community of people. 
+Determination of the state of mind of the society, film evaluations, market-price balance analysis, 
+Scientific and medical research, Crime analysis, security, intelligence, etc., both general and 
+potential and target users of the project 
+include educators, psychologists, health professionals and communication specialists. 
+Machine Interaction and Sentiment Analysis are used in marketing and advertising strategies, customer 
+In analyzing the experience, various sub-sectors in Safety and Monitoring, Healthcare and social sciences 
+can be used and developed in the applications of the fields. Counting all possible evaluations 
+Unfortunately, it is not over. These systems, which are predicted to have the potential to be used in every field 
+is not just a prediction of the future because today we are not able 
+It is also known to be utilized.
 
 <br>
 <br>
